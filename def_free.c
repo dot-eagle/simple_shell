@@ -54,7 +54,7 @@ void defer_free(void *address)
 }
 
 /**
- * lear_addr_list_node - clear an address from the list
+ * clear_addr_list_node - clear an address from the list
  * @address: address to search and clear
  * @list: addr_list list
  *
