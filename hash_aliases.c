@@ -15,6 +15,7 @@
 int hsh_alias(char **argv, env_t *env_p, int mode)
 {
 	int retrn;
+
 	static alias list = {NULL, NULL, NULL};
 	(void) env_p;
 
@@ -35,7 +36,6 @@ int hsh_alias(char **argv, env_t *env_p, int mode)
 		else
 		{
 			retrn = hsh_alias_print(&list, argv);
-
 			if (retrn == 1)
 				retrn = hsh_alias_add(&list, argv);
 		}
