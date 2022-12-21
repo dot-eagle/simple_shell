@@ -32,7 +32,7 @@ void create_history(hist_t *history, env_t *envp)
 		{
 			if (buf[s] == '\n')
 			{
-				str[j] = '\0';
+				str[s] = '\0';
 				add_history(history, str);
 				d = 0;
 			}

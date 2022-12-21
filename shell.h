@@ -12,6 +12,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <math.h>
+#include <errno.h>
 #include <ctype.h>
 #include <stdbool.h>
 #include <limits.h>
